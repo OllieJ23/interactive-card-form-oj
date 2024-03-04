@@ -141,9 +141,9 @@ const [cardMonth] = useContext(MonthContext);
 const [cardYear] = useContext(YearContext);
 
   return (
-    <Container whileHover={{rotate: -2.5}}>
+    <Container whileHover={{ rotate: -2.5 }}>
       <FrontCardImg
-        src="public\images\bg-card-front.png"
+        src="D:\Web Dev\Personal Projects\Front End Mentor\interactive-card-form-oj\public\images\bg-card-front.png"
         alt="Picture of Front Credit Card (Empty)"
       />
       <FrontCardLogo src="public\images\card-logo.svg" alt="" />
