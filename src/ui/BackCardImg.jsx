@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import styled from "styled-components";
 import { CVCContext } from "./Layout";
-import { motion } from "framer-motion";
 
 
 
