@@ -146,7 +146,7 @@ const [cardYear] = useContext(YearContext);
         src="././public\images\bg-card-front.png"
         alt="Picture of Front Credit Card (Empty)"
       />
-      <FrontCardLogo src="../../public\images\card-logo.svg" alt="Logo of fake card image" />
+      <FrontCardLogo src="../../public/card-logo.svg" alt="Logo of fake card image" />
       <OverlayCardNumber>{cardNumber}</OverlayCardNumber>
       <OverlayName>{cardName}</OverlayName>
       <OverlayExpDate>{`${cardMonth} / ${cardYear}`}</OverlayExpDate>
