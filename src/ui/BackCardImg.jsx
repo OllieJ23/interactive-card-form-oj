@@ -55,9 +55,10 @@ const [cardCVC] = useContext(CVCContext);
   return (
     <>
       <BackCardImg
-        src="./public\images\bg-card-back.png"
-        alt="Picture of Front Credit Card (Empty)"
+        src="./public/images/bg-card-back.png"
+        alt="Picture of Back Credit Card (Empty)"
       />
+
       <OverlayCVC>{cardCVC}</OverlayCVC>
     </>
   );
