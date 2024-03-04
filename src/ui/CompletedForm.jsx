@@ -120,7 +120,7 @@ function handleReset() {
     return (
       <Container>
         {loading ? <Loading /> : null}
-        <IMG src="public\images\icon-complete.svg" alt="" />
+        <IMG src="/icon-complete.svg" alt="Tick Mark Icon" />
         <ThankYou>THANK YOU!</ThankYou>
         <Message>We&apos;ve Added Your Card Details.</Message>
         <ContinueButton onClick={handleReset}>Continue</ContinueButton>
