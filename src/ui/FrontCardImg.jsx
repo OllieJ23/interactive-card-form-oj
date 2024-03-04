@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { MonthContext, NameContext, NumberContext, YearContext } from "./Layout.jsx";
 import { motion } from "framer-motion";
 
+
 const Container = styled(motion.div)`
   position: absolute;
   left: 0rem;
@@ -143,10 +144,10 @@ const [cardYear] = useContext(YearContext);
   return (
     <Container whileHover={{ rotate: -2.5 }}>
       <FrontCardImg
-        src="././public\images\bg-card-front.png"
+        src="/bg-card-front.png"
         alt="Picture of Front Credit Card (Empty)"
       />
-      <FrontCardLogo src="../../public/card-logo.svg" alt="Logo of fake card image" />
+      <FrontCardLogo src="/card-logo.svg" alt="Logo of fake card image" />
       <OverlayCardNumber>{cardNumber}</OverlayCardNumber>
       <OverlayName>{cardName}</OverlayName>
       <OverlayExpDate>{`${cardMonth} / ${cardYear}`}</OverlayExpDate>

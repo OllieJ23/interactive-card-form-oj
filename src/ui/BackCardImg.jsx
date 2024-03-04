@@ -55,7 +55,7 @@ const [cardCVC] = useContext(CVCContext);
   return (
     <>
       <BackCardImg
-        src="../../public/bg-card-back.png"
+        src="/bg-card-back.png"
         alt="Picture of Back Credit Card (Empty)"
       />
 
